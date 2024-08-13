@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-# Initialize session state variables
 if 'participants_list' not in st.session_state:
     st.session_state['participants_list'] = []
 if 'items_list' not in st.session_state:
